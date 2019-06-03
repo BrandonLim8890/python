@@ -1,3 +1,5 @@
+import re
+
 def isPhoneNumber(text):
     if len(text) is not 12:
         return False
